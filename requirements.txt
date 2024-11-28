@@ -1,6 +1,6 @@
-streamlit==1.27.0
-python-dotenv==1.0.0
-google-generativeai==1.0.2
-llama-index==0.6.5
-sentence-transformers==2.2.2
-pinecone-client==2.2.0
+streamlit
+python-dotenv
+google-generativeai
+llama-index
+sentence-transformers
+pinecone-client
