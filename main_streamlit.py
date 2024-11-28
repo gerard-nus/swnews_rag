@@ -66,10 +66,12 @@ def initialize_rag_system():
     """Initialize the RAG system and all necessary components"""
     try:
         # Load environment variables
-        load_dotenv()
-        api_key = os.getenv("GEMINI_API_KEY")
-        PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+        # load_dotenv()
+        # api_key = os.getenv("GEMINI_API_KEY")
+        # PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
+        api_key = st.secrets["GEMINI_API_KEY"]
+        PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
 
         # Configure Gemini
         genai.configure(api_key=api_key)
