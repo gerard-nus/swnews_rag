@@ -6,4 +6,5 @@ llama_index.llms.gemini
 llama_index.core
 llama_index.embeddings.huggingface
 sentence-transformers
+llama_index.vector_stores.pinecone
 pinecone-client
