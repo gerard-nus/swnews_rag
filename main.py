@@ -2,7 +2,6 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-import llama_index
 from llama_index.llms.gemini import Gemini
 from llama_index.core import Settings, VectorStoreIndex
 from llama_index.core import PromptTemplate

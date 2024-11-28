@@ -1,6 +1,7 @@
 streamlit
 python-dotenv
 google-generativeai
-llama-index
+llama_index
+llama_index.llms.gemini
 sentence-transformers
 pinecone-client
