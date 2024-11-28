@@ -3,5 +3,6 @@ python-dotenv
 google-generativeai
 llama_index
 llama_index.llms.gemini
+llama_index.embeddings.huggingface
 sentence-transformers
 pinecone-client
