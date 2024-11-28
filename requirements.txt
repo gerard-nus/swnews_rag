@@ -4,6 +4,5 @@ google-generativeai
 llama_index
 llama_index.llms.gemini
 llama_index.embeddings.huggingface
-llama_index.vector_stores
 sentence-transformers
 pinecone-client
