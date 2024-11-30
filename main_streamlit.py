@@ -74,7 +74,7 @@ def initialize_rag_system():
         # PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
         # api_key = st.secrets["GEMINI_API_KEY"]
-        # PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
+        # PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
         # Configure Gemini
         genai.configure(api_key=api_key)
@@ -163,7 +163,7 @@ def initialize_rag_system():
         # Create query engine
         query_engine = index.as_query_engine(
             text_qa_template=PromptTemplate(ROLE_PROMPT),
-            similarity_top_k=20
+            similarity_top_k=30
         )
 
         return query_engine
@@ -196,7 +196,7 @@ def main():
         with col1:
             # Query input
             query = st.text_area(
-                "Enter your question about news on social work in Singapore:",
+                "Enter your question about news on social work in Singapore.  Use relevant key words in your question.",
                 value=st.session_state.query,
                 height=100,
                 placeholder="e.g., What are news on career prospects for social workers in Singapore? \n"
@@ -227,7 +227,7 @@ def main():
             st.markdown("### Sample Questions")
             sample_questions = [
                 "What is the career progression for social workers?",
-                "What are news on salary issues for social workers?",
+                "What are news on salary or pay rise issues for social workers?",
                 "What are news on social worker being professionals and not volunteers",
             ]
 
