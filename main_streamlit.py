@@ -73,8 +73,8 @@ def initialize_rag_system():
         # api_key = os.getenv("GEMINI_API_KEY")
         # PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 
-        api_key = st.secrets["GEMINI_API_KEY"]
-        PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
+        # api_key = st.secrets["GEMINI_API_KEY"]
+        # PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
 
         # Configure Gemini
         genai.configure(api_key=api_key)
