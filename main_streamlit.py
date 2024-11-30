@@ -10,7 +10,7 @@ from pinecone import Pinecone
 from llama_index.vector_stores.pinecone import PineconeVectorStore
 
 api_key = st.secrets["GEMINI_API_KEY"]
-PINECONE_API_KEY = st.secrets("PINECONE_API_KEY")
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 
 # Page configuration
 st.set_page_config(
