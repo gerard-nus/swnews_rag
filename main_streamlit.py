@@ -256,6 +256,11 @@ def main():
         - Streamlit for the user interface
 
         The knowledge base consists of newspaper articles about social work in Singapore from 1992 to Dec 2021 latest.
+        
+        Why are some articles repeated in the search results? This is not a mistake but because RAG processes the articles in chunks.
+        I can change that one day.
+        
+        Right now, I pay for your use. Maybe one day, you can support the app by buying me a coffee [here](buymeacoffee.com/gerardchung)
 
         ### [RESULTS ARE NOT ACCURATE/COMPLETE, YOU CAN PRETTY MUCH ASSUME THAT WITH AI! 🥹]
 

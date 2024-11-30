@@ -251,6 +251,8 @@ def main():
         - Streamlit for the user interface
 
         The knowledge base consists of newspaper articles about social work in Singapore from 1992 to Dec 2021 latest.
+        
+         Right now, I pay for your use. Maybe one day, you can support this by buying me a coffee [here](buymeacoffee.com/gerardchung)
 
         ### [RESULTS ARE NOT ACCURATE/COMPLETE, YOU CAN PRETTY MUCH ASSUME THAT WITH AI! 🥹]
 
