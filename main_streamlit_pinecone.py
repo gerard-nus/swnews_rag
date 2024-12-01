@@ -176,7 +176,7 @@ def main():
     st.title("🇸🇬🗞️ Social Work News Q&A Rag Assistant")
     st.markdown("""
     This application uses RAG (Retrieval-Augmented Generation) to answer questions about social work in Singapore 
-    based on a curated collection of newspaper articles from 1991 to 2021.
+    based on a curated collection of newspaper articles from 1991 to 2024.
     """)
 
     try:
@@ -250,7 +250,7 @@ def main():
         - Gemini for natural language understanding
         - Streamlit for the user interface
 
-        The knowledge base consists of newspaper articles about social work in Singapore from 1992 to Dec 2021 latest.
+        The knowledge base consists of newspaper articles about social work in Singapore from 1992 to 1st Dec 2024 latest.
         
         ### [RESULTS ARE NOT ACCURATE/COMPLETE, YOU CAN PRETTY MUCH ASSUME THAT WITH AI! 🥹]
     
@@ -263,7 +263,7 @@ def main():
         Feedback for me? send it to: <gerard@nus.edu.sg>
         
         Plans with this app:
-        - Update the news corpus to 2024
+        - Improve the accuracy 
         
         
     """)
