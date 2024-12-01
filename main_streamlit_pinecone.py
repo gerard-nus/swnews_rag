@@ -250,7 +250,7 @@ def main():
         - Gemini for natural language understanding
         - Streamlit for the user interface
 
-        The knowledge base consists of newspaper articles about social work in Singapore from 1992 to 1st Dec 2024 latest.
+        The knowledge base consists of newspaper articles about social work in Singapore from 1992 to 1st Dec 2024.
         
         ### [RESULTS ARE NOT ACCURATE/COMPLETE, YOU CAN PRETTY MUCH ASSUME THAT WITH AI! 🥹]
     
